@@ -1,0 +1,36 @@
+body {
+  
+  background-image:url(https://scontent.fbkk13-1.fna.fbcdn.net/v/t1.15752-9/49344809_673800243015358_7036112494863056896_n.jpg?_nc_cat=108&_nc_eui2=AeGsCY9y6juDuP26GngKaJngbIeBBHF3-sWxcUGsFZGdNhgiVbn4bJ3vM4kQicqcLvrYwj0iZuNKN3ftCvx22bxqaCaEVd95r2dIptunTX-okA&_nc_oc=AQnUFI0C1zkVRVsq_bBuy2KRg2kGBf3I6ZUhuDpzDXmHblsFIJPkYuOBHeIyHnCxJk8&_nc_ht=scontent.fbkk13-1.fna&oh=5422a49a740f135ca9644d3496e7c56b&oe=5E0570F6);
+
+  
+
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  user-select: none;
+ }
+ 
+ .activeCard {
+  color: red;
+  background: pink;
+ }
+
+ .text{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.select{
+  text-align: center;
+}
+
+.name{
+  text-align: center;
+}
