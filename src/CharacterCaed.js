@@ -8,6 +8,7 @@ export default class CharacterCard extends Component {
             active: false,
         }
     }
+    
     activate = () => {
         if (!this.state.active) {
             this.props.activationHandler(this.props.value)
@@ -15,11 +16,14 @@ export default class CharacterCard extends Component {
         }
     }
 
+
     componentDidUpdate(prevProps) {
         if (prevProps.attempt != this.props.attempt || prevProps.reset !== this.props.reset) {
             this.setState({ active: false })
         }
     }
+
+
     render() {
         let className = `card ${this.state.active ? 'activeCard' : ''} `
         return (
