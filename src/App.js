@@ -24,8 +24,6 @@ class App extends React.Component {
 
   state = prepareStateFromWord(message);
 
-
-
   activationHandler = (c) => {
     let guess = [...this.state.guess, c]
     this.setState({ guess })
@@ -44,8 +42,6 @@ class App extends React.Component {
       completed: !this.state.completed
     })
   }
-
-
 
   render() {
     return (
@@ -83,8 +79,7 @@ class App extends React.Component {
               this.state.completed && <button onClick={this.reset}>Reset</button>
             }
 
-
-
+            
           </div>
         </div>
       </div>
