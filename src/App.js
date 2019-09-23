@@ -4,7 +4,7 @@ import './App.css';
 import _ from 'lodash';
 import './fah.jpg';
 
-let message = 'PEACH'
+let message = 'HELLO'
 
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
@@ -51,7 +51,7 @@ class App extends React.Component {
     return (
       <div className="text">
         <div>
-            <h2 className="name">นางสาวน่านฟ้า แสงนคร 6035512024</h2>
+            <h2 className="name">นางสาวน่านฟ้า แสงนคร 6035512025</h2>
           {
             Array.from(this.state.chars).map((item, index) => (
               <CharacterCaed
