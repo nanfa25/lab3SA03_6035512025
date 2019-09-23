@@ -75,7 +75,7 @@ class App extends React.Component {
             }
 
             {
-              this.state.completed && <button onClick={this.reset}>Reset</button>
+              this.state.completed && <button onClick={this.reset}>Reset</button> //ปุ่ม
             }
 
 
