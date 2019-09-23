@@ -19,7 +19,6 @@ const prepareStateFromWord = (given_word) => {
   }
 }
 
-
 class App extends React.Component {
 
   state = prepareStateFromWord(message);
@@ -79,13 +78,12 @@ class App extends React.Component {
               this.state.completed && <button onClick={this.reset}>Reset</button>
             }
 
-            
+
           </div>
         </div>
       </div>
     )
   }
 }
-
 
 export default App;
