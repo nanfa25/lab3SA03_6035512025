@@ -14,7 +14,6 @@ const prepareStateFromWord = (given_word) => {
  }
 }
 
-
 export default class WordCard extends Component {
     constructor(props){
         super(props);
